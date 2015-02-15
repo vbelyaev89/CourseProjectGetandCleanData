@@ -22,4 +22,4 @@ This is made for the course project of Getting and Cleaning Data course
 ## I create some good names for columns
 
 ## Fifth task
-## Finally, I creating new tidy dataset with the grouped data for activity and subject. Here I use group_by() from dplyr, so I assume that it was installed before. Firstly, I make the data "groupped" and then by summarizing I calculate mean values (groupped firstly by volunteer and then by activity) for meanxforbodyaccel and stdevxforbodyaccel. At the end I write the dataset in a file.
+## Finally, I am creating new tidy dataset with the grouped data for activity and subject. Here I use group_by() from dplyr, so I assume that it was installed before. Firstly, I make the data "groupped" and then by summarizing I calculate mean values (groupped firstly by volunteer and then by activity) for meanxforbodyaccel and stdevxforbodyaccel. At the end I write the dataset in a file.

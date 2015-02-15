@@ -61,5 +61,6 @@ names(tidy_table) <- c("volunteer", "meanxforbodyaccel","stdevxforbodyaccel","ac
 library(dplyr)
 new_tidy <- group_by(tidy_table,volunteer,activity)
 new_tidy <- summarize(new_tidy,mean(meanxforbodyaccel),mean(stdevxforbodyaccel))
+names(new_tidy) <- c("volunteer", "activity", "meanxforbodyaccel","stdevxforbodyaccel")
 setwd("..")
 write.table(new_tidy, file = "tidy data.txt", row.names = F)
